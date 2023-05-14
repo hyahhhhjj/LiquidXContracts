@@ -11,6 +11,8 @@ The following contracts are included in this repository:
 - `LiquidXStakePool`: The contract used to calculate user shares and satisfy ERC20 token standards. It can be transferred.
 - `ManagerAccount`: The contract that implements manager operations, including adding/removing liquidity, borrowing/repaying assets, and depositing/withdrawing funds.
 
+For more information, you can go to [LiquidXProtocol_LitePaper]()
+
 ## Usage
 To use these contracts, you can either deploy them yourself or use the deployed contracts on the Ethereum mainnet or testnets. 
 
