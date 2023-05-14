@@ -4,12 +4,12 @@ This repository contains the contracts for the LiquidX Protocol, as well as test
 ## Contracts
 The following contracts are included in this repository:
 
-- `AccountsGuard`: The contract used by the protocol guard to check manager assets and force liquidation if asset conditions are not healthy.
+- `AccountsGuard`: The contract is used by the protocol guard to check manager assets and force liquidation if asset conditions are not healthy.
 - `LBErrors`: A simplified version of TradeJoe V2's LBErrors.
 - `LiquidXAggregator`: The contract that aggregates manager accounts and LiquidX stake pools.
 - `LiquidXErrors`: The contract that contains all the error types that other contracts may use.
-- `LiquidXStakePool`: The contract used to calculate user shares and satisfy ERC20 token standards. It can be transferred.
-- `ManagerAccount`: The contract that implements manager operations, including adding/removing liquidity, borrowing/repaying assets, and depositing/withdrawing funds.
+- `LiquidXStakePool`: The contract is used to calculate and mint/burn user shares which satisfies ERC20 token standards. 
+- `ManagerAccount`: The contract is used to implement manager operations, including adding/removing liquidity, borrowing/repaying assets, and depositing/withdrawing funds.
 
 For more information, you can go to [LiquidXProtocol_LitePaper]()
 
