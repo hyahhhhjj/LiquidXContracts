@@ -36,7 +36,7 @@ contract StakePoolFactory {
     }
     /// @notice performs as a stake pool factory
     /// @dev only called by guard
-    /// @paarams name_ name of share token, this is set as "lx-XXX" by default. If the native token is "USDT", then the share token is "lx-USDT"
+    /// @param name_ name of share token, this is set as "lx-XXX" by default. If the native token is "USDT", then the share token is "lx-USDT"
     /// @param symbol_ symbol of share token
     /// @param stakeToken_ native token address
     /// @param leverageAllowedMax_ max allowed leverage. This is a 16X16 fixed-point number. By default it's 1048576, which is 16X leverage

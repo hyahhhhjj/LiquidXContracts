@@ -38,7 +38,8 @@ contract AccountsGuard {
         require(msg.sender == guard);
         _;
     }
-
+    /// @notice update guard address
+    /// @dev Needs to be called by the owner
     function updateGuard(address guard_) external onlyOwner{
         guard = guard_;
     }
